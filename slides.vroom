@@ -1,0 +1,109 @@
+---- config
+title: Vroom!
+indent: 5
+height: 24
+width: 66
+skip: 0
+
+vimrc: |
+    " foo
+
+---- center
+ALL YOUR CODES ARE BELONG TO US
+
+by Ingy döt Net
+
+Pittsburgh Perl Workshop
+----
+== I <3 GitHub
+
++* Who uses GitHub?
++* How many repositories do you have?
++* I have 108 repos
+
++    I think so anyways...
+
++* I plan to have THOUSANDS
+----
+== Multiple Development Machines
+
+* I code on 3 - 5 machines regularly.
+
+* Personal stuff on:
+  * MacBook
+  * Ubuntu Eee
+  * Windows?
+
+* Pair program on:
+  * ingy.net
+  * feather.perl6.nl
+  * Your Machine
+----
+== Acmeist Madness
+
+* Every Project has 3-12 Repos
+  * Perl
+  * Perl 6
+  * Python
+  * JavaScript
+  * Ruby
+  * TestML (unit tests)
+  * Pegex (parse grammars)
+  * Spec repos
+  * Talk repos
+
+* Pair program on Everything!
+----
+== How Can I Possibly Manage All This Shit?
+----
+== AYCABTU!!!
+
++== ALL YOUR CODEZ ARE BELONG US
+
++* App-AYCABTU is the >>jQuery of Repository Management<<
+
+* jQuery(selectors).action
+
+* > aycabtu selectors action [verbosity]
+----
+== EVERYTHING IS A GITHUB REPO - aycatu-ingydotnet
+
+> cd src
+
+> ls -l AYCABTU 
+lrwxrwxrwx 1 ingy AYCABTU -> aycabt-ingydotnet/AYCABTU
+
+> cat AYCABTU
+- repo: git@github.com:ingydotnet/aycabt-ingydotnet.git
+  tags: aycabtu current
+- repo: git@github.com:ingydotnet/boolean-pm.git
+  tags: perl cpan
+- repo: git@github.com:ingydotnet/cdent.git
+  tags: python acmeism
+
+----
+    aycabtu --all
+    aycabtu --all --list
+    aycabtu -a --status
+    aycabtu -a -s --quiet
+    aycabtu 1-4 -s --verbose
+    aycabtu -a --update ??? NO WAY!
+
+    aycabtu --tags=testml
+    aycabtu --tags=testml,perl6
+    aycabtu --tags=testml --tags=perl6
+    aycabtu *aycabt*
+
+    aycabtu *-talk
+    aycabtu *-ppw2010-talk -s
+----
+== Let's Add Plugins!
+
+* aycabtu testml* --commit=patch,schwern
+* aycabtu *-talk --update-ghpages
+* aycabtu *-pm --release-to-cpan
+
+----
+== Who Wants To Help?
+----
+== The End
